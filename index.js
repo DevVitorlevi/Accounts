@@ -28,7 +28,9 @@ function operation(){
             break
             case 'Sair':
                 console.log(chalk.bgBlue('Saindo Do Sistema....'))
-                process.exit()
+                setTimeout(()=>{
+                    process.exit()
+                },1000)
             break
         }
     })
